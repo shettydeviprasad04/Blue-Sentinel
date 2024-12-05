@@ -1,0 +1,59 @@
+.Education-Card{
+    height: 400px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.Education-subcard{
+    margin: 40px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer; 
+    border: 1px solid black; 
+    height: 400px;
+    width: 350px;
+
+}
+.Education-subcard:hover{
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+.Education-img{
+    width: 400px;
+    height: 90%;
+}
+.info-container{
+    width: 70%;
+    height: 550px;
+    margin: 50px;
+    overflow-y: auto;
+}
+.img-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px;
+    padding: 0px;
+
+}
+.img-subinfo{
+    width: 100%;
+    height: 500px;
+    gap: 40px;
+    margin: 0px;
+}
+.info-container-button{
+    margin-left: 95%;
+    background-color: red;
+}
+#edu-cation{
+    height: 1000px;
+}

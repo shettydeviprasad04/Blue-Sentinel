@@ -1,0 +1,72 @@
+/* Styling for the entire Weather Tracker container */
+div {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f7fb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading for the Weather Tracker */
+  h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the search input field */
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+  }
+  
+  /* Button to fetch weather data */
+  button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error message styling */
+  p {
+    color: #ff4d4d;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  /* Weather data display */
+  div > h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  div > p {
+    font-size: 18px;
+    color: #555;
+    margin: 5px 0;
+    text-align: center;
+  }
+  

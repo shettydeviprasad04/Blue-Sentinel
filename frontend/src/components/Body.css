@@ -1,0 +1,14 @@
+.carousel{
+    height: 600px;
+  }
+  .d-block{
+    height: 600px;
+  }
+  .carousel-control-prev
+  {
+    width: 30px;
+  }
+  .carousel-control-next
+  {
+    width: 30px;
+  }
